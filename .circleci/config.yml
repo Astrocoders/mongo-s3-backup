@@ -6,8 +6,8 @@ jobs:
     docker:
       - image: docker:17.05.0-ce-git
         environment:
-          DOCKER_IMAGE: astrocoders/meteor-s3-backup
-          DOCKER_IMAGE_NAME: meteor-s3-backup
+          DOCKER_IMAGE: astrocoders/mongo-s3-backup
+          DOCKER_IMAGE_NAME: mongo-s3-backup
 
     steps:
       - checkout
