@@ -1,5 +1,5 @@
 FROM mongo
-MAINTAINER Paolo Scanferla <paolo.scanferla@mondora.com>
+MAINTAINER Astrocoders <gabriel.rubens@astrocoders.com>
 RUN mkdir /script
 ADD . /script
 RUN apt-get update && apt-get install -y python-pip cron
